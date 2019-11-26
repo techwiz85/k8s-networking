@@ -2,7 +2,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: hellowworldservice
+  name: hello-world-service
 spec:
   selector:
     app: hello-world
@@ -15,8 +15,6 @@ spec:
       # Port accessible outside cluster
       nodePort: 30001
   type: LoadBalancer
-
-
 
 ---
 apiVersion: extensions/v1beta1
